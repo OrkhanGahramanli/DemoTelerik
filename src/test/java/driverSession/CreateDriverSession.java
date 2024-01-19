@@ -18,6 +18,7 @@ public class CreateDriverSession {
         options.addArguments("profile-directory=Profile 1");
         driver = new ChromeDriver(options);
         driver.get("https://10fastfingers.com/typing-test/english");
+        //test
     }
 
     @After
